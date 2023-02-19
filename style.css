@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: bolder;
+  font-family: "Open Sans", sans-serif;
+}
+.top {
+  background-color: #363543;
+  width: 100%;
+  height: 625px;
+}
+.heading {
+  padding: 5px;
+  position: relative;
+  left: 120px;
+  /* margin: 40px; */
+}
+.links a {
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 20px;
+  color: #737379;
+  font-size: 16px;
+}
+/* .flex {
+  display: flex;
+  justify-content: center;
+} */
+nav {
+  display: inline-block;
+}
+.links {
+  padding-left: 100px;
+  padding-top: 50px;
+  margin-right: 20px;
+  position: relative;
+  bottom: 25px;
+  left: 40px;
+  cursor: pointer;
+  /* color: #c7c0c0; */
+}
+.links a:hover {
+  color: #fff;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+}
+.logo {
+  margin-left: 10px;
+  position: relative;
+  top: -5px;
+}
+.logo img {
+  width: 50px;
+  /* height: 40px; */
+}
+.icons i {
+  color: #b9b6b6;
+  margin-right: 20px;
+  position: relative;
+  right: 200px;
+  top: 24px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.icons i:hover{
+  color: #fff;
+}
+span.text {
+  font-size: 20px;
+  position: relative;
+  bottom: 30px;
+  font-weight: bolder;
+  color: #fff;
+}
+span.text1 {
+  font-size: 40px;
+  position: relative;
+  bottom: 30px;
+  font-weight: bolder;
+  color: #fff;
+}
+.name {
+  font-weight: bolder;
+  color: #fff;
+  border-bottom: 5px solid yellow;
+}
+.grey {
+  color: #c7c0c0;
+}
+.heading h1 {
+  font-size: 50px;
+  line-height: 100px;
+  letter-spacing: 2px;
+  /* font-weight: bolder; */
+  /* font-family: "Courier New", Courier, monospace; */
+  position: relative;
+}
+.para{
+  font-size: 16px;
+  width: 240px;
+  color: #b3acac;
+  text-align: center;
+  margin-right: 20px;
+}
+.mid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageBox{
+  position: relative;
+  right: 230px;
+}
+.imageBox img{
+  height: 400px;
+  width: 400px;
+}
+.content h3{
+  color: #c7c2c2;
+}
+.content p{
+  color: #c7c2c2;
+  font-size: 16px;
+}
+.content{
+  position: relative;
+  right: 170px;
+}
+.content a{
+  text-decoration: none;
+ color: rgb(211, 211, 25);
+}
+#right{
+  padding-left: 10px;
+  color: rgb(211, 211, 25);
+  font-size: 20px;
+}
+.social-icons i{
+  color: rgb(192, 192, 15);
+  margin: 7px;
+}
+.four img{
+  /* border: 2px solid black; */
+  /* background-color: #3b3a3a; */
+  /* margin-right: 100px; */
+  margin-top: 10px;
+  /* margin: 5px; */
+}
+.four{
+  display: flex;
+  justify-content: center;
+  background-color: #403f51;
+  /* padding: 10px; */
+  /* text-align: center;   */
+  padding-right: 100px;
+  border: 5px solid black;
+  /* width: 100%; */
+}
+.four img{
+  /* display: inline-block; */
+  width: 100px;
+  height: 100px;
+  padding-right: 100px;
+  border: 1px solid black;
+}
+.all-social{
+  background-color: #1d1d1d;
+  text-align: center;
+}
+.circle{
+  position: relative;
+  left: 140px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: #2d2d39;
+}
